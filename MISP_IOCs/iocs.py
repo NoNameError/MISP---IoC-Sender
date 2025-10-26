@@ -3,8 +3,8 @@ import ssl
 import sys
 
 
-MISP_URL = "https://10.49.151.245:8843" #your MISP IP
-MISP_KEY = "OGPgN2jlbU4QhTE8s0zlr3SAmoE4nxhMexorE2iY" #your MISP api key
+MISP_URL = "" #your MISP IP
+MISP_KEY = "" #your MISP api key
 
 MISP_VERIFYCERT = False 
 
@@ -118,4 +118,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
